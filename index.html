@@ -95,6 +95,7 @@
         </section>
 
         <section id="find-your-dream-house">
+            <div class="overlay"></div>
             <div class="container">
                 <div class="dflex justify-center align-center text-center spacer-5">
                     <h2>Find your dream home</h2>
@@ -102,8 +103,8 @@
                 <div class="listings">
                     <h3>Search listings</h3>
                     <form>
-                        <div class="dflex justify-between align-center">
-                            <div>
+                        <div class="dflex justify-between align-center gap-2">
+                            <div class="listing-input">
                                 <label for="location">
                                     Location
                                 </label>
@@ -112,7 +113,7 @@
                                     <option value="1">Any</option>
                                 </select>
                             </div>
-                            <div>
+                            <div  class="listing-input">
                                 <label for="type">
                                     Type
                                 </label>
@@ -120,7 +121,7 @@
                                     <option value="Any">Any</option>
                                 </select>
                             </div>
-                            <div>
+                            <div  class="listing-input">
                                 <label for="sort-by">
                                     Sort by
                                 </label>
@@ -130,8 +131,8 @@
                             </div>
                         </div>
                         
-                        <div class="dflex justify-between align-center">
-                            <div>
+                        <div class="dflex justify-between align-center gap-2 spacer-3">
+                            <div  class="listing-input">
                                 <label for="bedrooms">
                                     Bedrooms
                                 </label>
@@ -139,7 +140,7 @@
                                     <option value="any-number">Any Number</option>
                                 </select>
                             </div>
-                            <div>
+                            <div  class="listing-input">
                                 <label for="baths">
                                     Baths
                                 </label>
@@ -147,19 +148,19 @@
                                     <option value="any-number">Any Number</option>
                                 </select>
                             </div>
-                            <div>
+                            <div  class="listing-input">
                                 <label for="min-price">
                                     Min Price
                                 </label>
                                 <input type="text" name="min-price">
                             </div>
-                            <div>
+                            <div  class="listing-input">
                                 <label for="max-price">
                                     Max Price
                                 </label>
                                 <input type="text" name="max-price" id="max-price">
                             </div>
-                            <div>
+                            <div  class="listing-input">
                                 <input type="submit" value="Search now">
                             </div>
                         </div>
@@ -169,7 +170,7 @@
         </section>
 
         <section id="logos">
-            <div class="container dflex justify-between align-center text-center">
+            <div class="container dflex justify-between align-center text-center spacer-5">
                 <img src="images/logo1.webp" alt="">
                 <img src="images/logo2.webp" alt="">
                 <img src="images/logo3.webp" alt="">
@@ -187,39 +188,51 @@
             </div>
         </section>
 
-        <section id="our-servives">
-            <div class="dflex justify-center align-center text-center">
+        <section id="our-servives" class="container">
+            <div class="dflex justify-center align-center text-center spacer-3">
                 <h2>Our services</h2>
             </div>
             <div class="dflex justify-between align-center text-center gap-2">
                 <div class="cards">
-                    <img src="images\our-services1.webp" alt="">
-                    <h3>Real Estate Done Right</h3>
-                    <p>
-                        Nervous about your property adventure? Don’t be. Whether you're getting ready to buy or sell your residence, looking at investment properties, or just curious about the markets, our team ensures you get the best experience possible!
-                    </p>
+                    <div class="card-image">
+                        <img src="images\our-services1.webp" alt="">
+                    </div>
+                    <div class="card-content">
+                        <h3>Real Estate Done Right</h3>
+                        <p>
+                            Nervous about your property adventure? Don’t be. Whether you're getting ready to buy or sell your residence, looking at investment properties, or just curious about the markets, our team ensures you get the best experience possible!
+                        </p>
+                    </div>
                 </div>
 
                 <div class="cards">
-                    <img src="images\our-services2.webp" alt="">
-                    <h3>Real Estate Done Right</h3>
-                    <p>
-                        Nervous about your property adventure? Don’t be. Whether you're getting ready to buy or sell your residence, looking at investment properties, or just curious about the markets, our team ensures you get the best experience possible!
-                    </p>
+                    <div class="card-image">
+                        <img src="images\our-services1.webp" alt="">
+                    </div>
+                    <div class="card-content">
+                        <h3>Real Estate Done Right</h3>
+                        <p>
+                            Nervous about your property adventure? Don’t be. Whether you're getting ready to buy or sell your residence, looking at investment properties, or just curious about the markets, our team ensures you get the best experience possible!
+                        </p>
+                    </div>
                 </div>
 
                 <div class="cards">
-                    <img src="images\our-services3.webp" alt="">
-                    <h3>Real Estate Done Right</h3>
-                    <p>
-                        Nervous about your property adventure? Don’t be. Whether you're getting ready to buy or sell your residence, looking at investment properties, or just curious about the markets, our team ensures you get the best experience possible!
-                    </p>
+                    <div class="card-image">
+                        <img src="images\our-services1.webp" alt="">
+                    </div>
+                    <div class="card-content">
+                        <h3>Real Estate Done Right</h3>
+                        <p>
+                            Nervous about your property adventure? Don’t be. Whether you're getting ready to buy or sell your residence, looking at investment properties, or just curious about the markets, our team ensures you get the best experience possible!
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section id="socials">
-            <div class="container dflex justify-center align-center text-center">
+            <div class="container dflex justify-around align-center text-center spacer-5 width-35">
                 <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
                 <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
                 <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
